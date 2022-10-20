@@ -39,7 +39,7 @@
   left:64px;
   width: 730px;
   height: 96px;
-  font-size: 102px;    
+  font-size: 102px;
   font-weight:600px;
   z-index: 2;
   
@@ -229,7 +229,6 @@
   margin-left: auto;
   margin-bottom:  70px;
   
-  z-index: 2;
 }
 
 .subtitle_feynman{
@@ -247,7 +246,6 @@
   position: absolute;
   right: 40px;
   top: 50%;
-  right: 40px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -284,7 +282,6 @@
   text-align: center;
   position: relative;
   margin-top: 90px;
-  padding: 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
