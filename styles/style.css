@@ -34,7 +34,7 @@
   height: 32px;
   width: 228px;
   position: absolute;
-
+  z-index: 1;
 }
 
 .header__title{
@@ -262,7 +262,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  color: #2980f3; 
+  color: #2980f3;
   text-decoration:none;
   
 }
@@ -429,7 +429,7 @@
 }
 
 .footer__column_heading{
-  margin: 0 auto 20px; 
+  margin: 0 auto 20px;
   margin-left: 40px;
   line-height: 30px;
   font-size: 18px;
@@ -438,7 +438,7 @@
 }
 
 .footer__column_links{
-  margin-top: 20px; 
+  margin-top: 20px;
   margin-bottom: 16px;
   line-height: 30px;
   font-size: 18px;
@@ -448,7 +448,7 @@
 }
 
 .footer__column_link{
-  margin-top: 20px; 
+  margin-top: 20px;
   margin-bottom: 16px;
   text-decoration:none;
   color:#f2f2f2;
