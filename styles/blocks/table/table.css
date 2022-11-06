@@ -1,6 +1,4 @@
-@import url(./table__cell/table__cell.css);
-@import url(./table__heading/table__heading.css);
-@import url(./table__text/table__text.css);
+
 .table{
   padding: 0;
   display: flex;

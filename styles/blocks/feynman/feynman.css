@@ -1,7 +1,4 @@
-@import url(.//feynman__title/feynman__title.css);
-@import url(.//feynman__subtitle/feynman__subtitle.css);
-@import url(.//feynman__illustration/feynman__illustration.css);
-@import url(.//feynman__link/feynman__link.css);
+
 
 .feynman{
   box-sizing: border-box;

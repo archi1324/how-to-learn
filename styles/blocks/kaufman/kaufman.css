@@ -1,14 +1,4 @@
-@import url(../table/table.css);
-@import url(../table/table__cell/table__cell.css);
-@import url(../table/table__heading/table__heading.css);
-@import url(../table/table__text/table__text.css);
-@import url(./section-title__theme_dark/section-title__theme_dark.css);
-@import url(./section-subtitle__theme_dark/section-subtitle__theme_dark.css);
-@import url(./table_theme_dark/table__theme_dark.css);
-@import url(./table__cell_theme_dark/table__cell_theme_dark.css);
-@import url(./table__heading_theme_dark/table__heading_theme_dark.css);
-@import url(./table__text_theme_dark/table__text_theme_dark.css);
-@import url(./kaufman__triangle/kaufman__triangle.css);
+
 
 .kaufman{
   position: relative;
