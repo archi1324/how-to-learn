@@ -1,0 +1,9 @@
+.cards__item{
+
+  list-style-type:none;
+  width: 240px;
+}
+
+.cards__item:last-child{
+  margin-right: 340px;
+}

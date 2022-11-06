@@ -1,4 +1,10 @@
-
+@keyframes rotation{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }}
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -87,7 +93,7 @@
   height: 568px;
   top:64px;
   z-index: 0;
-
+  animation: rotation 20s linear infinite;
 }
 
 
@@ -95,8 +101,6 @@
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
-
-
 }
 
 .two-columns{
@@ -107,7 +111,7 @@
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-
+  margin-top: 100px;
 }
 
 .two-columns__brief{
@@ -135,7 +139,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-
 }
 
 .two-columns__paragraph:last-child{
@@ -147,7 +150,11 @@
   font-weight: 600;
 }
 
-
+.techniques{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
 
 .section-title{
   margin-left: auto;
@@ -156,7 +163,7 @@
   padding: 0;
   text-align: center;
   position: relative;
-  margin-top: 0;
+  margin-top: 100px;
   margin-bottom: 0;
   line-height: 1.15;
   font-size: 60px;
@@ -175,9 +182,85 @@
   padding: 0;
   text-align: center;
   position: relative;
+}
+
+.cards{
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 920px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cards__item{
+
+  list-style-type:none;
+  width: 240px;
+}
+
+.cards__item:last-child{
+  margin-right: 340px;
+}
+
+.cards__image{
+ width: 160px;
+ height: 160px;
+ margin: 60px 40px 43px 40px;
+ border-radius: 50%;
+}
+
+.cards__title{
+text-align: center;
+ margin-bottom: 16px;
+ line-height: 1.15;
+ font-size: 60px;
+ font-weight: 600;
+ line-height: 1.15;
+ font-weight: 600;
+ font-size: 24px;
+}
+
+
+.cards__description{
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.video{
+top:100px;
+  position: relative;
 
 }
 
+.video__iframes{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1050px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.video__iframe{
+  border: none;
+  width: 515px;
+  height: 316px;
+
+
+}
+
+.oakley{
+  background-color: #f2f2f2;
+  margin-top: 60px;
+  border: 2px solid red;
+}
 
 .table{
   padding: 0;
@@ -208,6 +291,7 @@
   font-size: 24px;
   width: 250px;
   margin-bottom: 20px;
+
 }
  .table__text{
   line-height: 1.2;
@@ -217,6 +301,93 @@
   margin-top: 20px;
 
  }
+
+.khan{
+  background-color: #f2f2f2;
+
+}
+
+.khan__container{
+  margin-top: 105px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+
+}
+
+.khan__author{
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 42px;
+  font-weight: normal;
+  font-size: 30px;
+
+}
+
+.khan__title{
+  margin-top: 0;
+  line-height:1.15;
+  font-weight: 600;
+  font-size: 60px;
+
+  margin-bottom: 0;
+}
+
+.khan__quote{
+  margin-top: 50px;
+  width: 790px;
+  margin-bottom: 0px;
+  line-height:34px;
+  font-weight: normal;
+  font-size: 24px;
+
+}
+
+.khan__quote-author{
+  margin-top: 36px;
+  margin-bottom: 0px;
+  line-height:1.15;
+  font-weight: 600;
+  font-size: 24px;
+
+}
+
+.khan__quote-author-subline{
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height:1.15;
+  font-weight: normal;
+  font-size: 24px;
+
+}
+
+.khan__book-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 68px;
+}
+
+.khan__book-pic{
+width: 620px;
+height: 608px;
+margin-right: 48px;
+object-fit: cover;
+object-position: top center;
+
+}
+
+.khan__buy-link{
+line-height: 42px;
+font-weight: normal;
+  font-size: 30px;
+  color: #2f80ed;
+  text-decoration:none;
+
+}
 
 .feynman{
   box-sizing: border-box;
@@ -369,8 +540,29 @@
   right: -210px;
   top: 0;
   z-index: 0;
+  animation: rotation 20s linear infinite;
 }
 
+.recources{
+  background-color: #f2f2f2;
+}
+
+.recources__logo-zone{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  margin-bottom: 217px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+
+}
+
+.recources__link{
+  width: 270px;
+  height: 38px;
+
+}
 
 .footer{
  display: flex;
