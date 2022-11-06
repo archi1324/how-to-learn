@@ -19,4 +19,13 @@
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/video/video.css);
-
+@import url(../cards/cards__item/cards__item.css);
+@import url(.//feynman__link/feynman__link.css);
+@import url(./footer__columns/footer__column_content_social/footer__column_content_social.css);
+@import url(./header__title/header__title.css);
+@import url(./kaufman__triangle/kaufman__triangle.css);
+@import url(./khan__title/khan__title.css);
+@import url(./recources__logo-zone/recources__logo-zone.css);
+@import url(./table__text/table__text.css);
+@import url(./two-columns__span-accent/two-columns__span-accent.css);
+@import url(./video__iframes/video__iframes.css);
