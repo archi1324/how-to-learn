@@ -23,6 +23,7 @@
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__illustration/feynman__illustration.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/digits/digits.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
