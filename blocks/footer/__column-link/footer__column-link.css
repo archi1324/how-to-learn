@@ -6,5 +6,5 @@
 }
 
 .footer__column-link:hover{
-  border-bottom: 1px solid blue;
+  opacity: .3;
 }
